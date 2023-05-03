@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 13vh;
+    background-color:black;
+}
+
+.todo-form{
+    background-color:white;
+    width: 100%;
+    max-width: 450px;
+    padding: 130px 120px;
+    margin: auto;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: block;
+    height: 25lh;
+    text-align: center;
+}
+
+input {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 200px;
+    padding: 8px;
+    margin-top: 7px;
+    
+}
+
+button{
+    width: 220px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px blue solid;
+    color:black;
+}
+
+.mensagem-erro {
+   background-color:rgb(255, 161, 161);
+   color: red;
+   width: 190px;
+   padding: 3px;
+   text-align: center;
+}
+
+.mensagem-sucesso {
+    background-color: lightgreen;
+    color: green;
+    width: 190px;
+    padding: 3px;
+    text-align: center;
+}
